@@ -119,8 +119,8 @@ public class CompareArrayLink {
 
 #### **测试结果**
 ***
-| Benchmark                          | Mode| Cnt|  Score | Error |Units|
-| ---------------------------------- |-----| -- | -----: |  --   |  -- |
+| Benchmark                        | Mode| Cnt|  Score | Error |Units|
+| ---------------------------------|-----| -- | -----: |  --   |  -- |
 | CompareArrayLink.getNodeFromArray|thrpt| 5|290720314.908|± 5739248.915|ops/s|
 |CompareArrayLink.getNodeFromLink  |thrpt| 5|18752661.768 |± 106270.497 |ops/s|
 |CompareArrayLink.insertNodeToArray|thrpt| 5|7240786.772  |± 218585.373 |ops/s|
@@ -149,8 +149,8 @@ LinkedList
 只有在链表两头的操作－add（）、addFirst（）、removeLast（）或用iterator（）上的remove（）倒能省掉指针的移动。
 
 Apache Commons 有个TreeNodeList，里面是棵二叉树，可以快速移动指针到位。
+
 #### **相关链接**
 ***
-http://calvin1978.blogcn.com/articles/collection.html/
-
+http://calvin1978.blogcn.com/articles/collection.html
 http://openjdk.java.net/projects/code-tools/jmh/
